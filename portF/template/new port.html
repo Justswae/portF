@@ -1,0 +1,112 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Portfolio 00
+        </title>
+        <link  href="{%static 'port.css' %}" rel="stylesheet">
+    </head>
+    <body>
+        <!---Hero section starts here-->
+        <div class="hero">
+            <nav>
+                <h2 class="logo">Art By <span>Tobi </span></h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us </a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <a href="#" class="btn">Subscribe</a>
+            </nav>
+        </div>
+        <div class="content">
+            <h4>Hey there, I'm </h4>
+            <h1>Tobi </h1>
+            <h3>and I'm a Python developer.</h3>
+            <div class="newsletter">
+                <form>
+                    <input type="email" name="email" id="mail" placeholder="Enter your mail"> 
+                    <input type="submit" name="submit" value=" Lets start">
+                </form> 
+            </div>
+
+        </div>
+        <!---About section-->
+        <section class="about">
+            <div class="main">
+                <img src="static/img0.jpg">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <h5>Developer <span>& Designer</span>
+                    </h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi beatae at id eum? Quis labore sint 
+                        sit hic magni fuga ipsa quos quas pariatur veniam laboriosam 
+                        non ducimus, corporis distinctio voluptates incidunt culpa nihil mollitia deserunt 
+                        sapiente exercitationem libero. Accusantium!
+                    </p>
+                    <button type="button">Let's Talk </button>
+                </div>
+            </div>
+        </section>
+
+        <!---Service selection -->
+        <div class="service">
+            <div class="title">
+                <h2>Our Services</h2>
+            </div>
+            <div class="box">
+                <div class="card">
+                    <img src="static/bxl-python.svg" class="bars">
+                    <h5>Python Development</h5>
+                    <div class="pra">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe unde animi corrupti quos est 
+                            provident perferendis rerum nihil nesciunt cum aliquam delectus eos, cupiditate necessitatibus 
+                            qui ipsum excepturi porro numquam!</p>
+                        <p style="text-align: center;"><a class="button" href="#" >Read More</a></p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="static/bxs-user.svg" class="bars">
+                    <h5>User Management Systems</h5>
+                    <div class="pra">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe unde animi corrupti quos est 
+                            provident perferendis rerum nihil nesciunt cum aliquam delectus eos, cupiditate necessitatibus 
+                            qui ipsum excepturi porro numquam!</p>
+                        <p style="text-align: center;"><a class="button" href="#" >Read More</a></p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="static/bx-support.svg" class="bars">
+                    <h5>Customer<br>Support</h5>
+                    <div class="pra">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe unde animi corrupti quos est 
+                            provident perferendis rerum nihil nesciunt cum aliquam delectus eos, cupiditate necessitatibus 
+                            qui ipsum excepturi porro numquam!</p>
+                        <p style="text-align: center;"><a class="button" href="#" >Read More</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---Contact Me-->
+        <div class="contact-me">
+            <p>Let me help you with your next project. </p>
+            <a class="button-two" href="#">Hire Me</a>
+        </div>
+        <!--Footer--->
+        <footer>
+            <p>Art by Tobi</p>
+           <!-- <p>For More Info, Kindly Contact Me Through My Social Media Links Below</p>--->
+            <div class="social">
+                <a href="https://wa.me/qr/UFHYYSVXQVQ31"><img src="static/bxl-whatsapp-square.svg"></a>
+                <a href="https://mobile.twitter.com/thetobioyetunji"><img src="static/bxl-twitter.svg"></a>
+                <a href="#"><img src="static/bxl-discord.svg"></a>
+            </div>
+            <p class="end ">CopyRight - Tobi</p>
+        </footer>
+    </body>
+</html>
